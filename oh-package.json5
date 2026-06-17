@@ -1,0 +1,14 @@
+{
+  "name": "calorie-fit-harmony",
+  "version": "1.0.0",
+  "description": "HarmonyOS ArkTS calorie tracking app prototype.",
+  "main": "",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hvigor-ohos-plugin": "4.1.3",
+    "@ohos/hvigor": "4.1.3"
+  }
+}
+

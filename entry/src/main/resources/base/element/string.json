@@ -1,0 +1,17 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "轻卡减脂"
+    },
+    {
+      "name": "module_desc",
+      "value": "Calorie tracking entry module"
+    },
+    {
+      "name": "ability_desc",
+      "value": "Calorie tracking ability"
+    }
+  ]
+}
+
