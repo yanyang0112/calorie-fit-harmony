@@ -1,26 +1,25 @@
-# Product Notes
+# 产品说明
 
-Calorie Fit Harmony is a small HarmonyOS prototype for users who want a simple way to track daily calorie intake during a weight-loss plan.
+Calorie Fit Harmony 是一个轻量级 HarmonyOS 应用原型，面向希望在减脂期间简单记录每日热量摄入的用户。
 
-## User goals
+## 用户目标
 
-- Quickly record each meal.
-- See whether today's intake is below or above the configured target.
-- Keep records separated by day.
-- Keep the app lightweight and local-first.
+- 快速记录每一餐。
+- 直观看到今日摄入是否超过目标。
+- 按日期区分饮食记录。
+- 保持应用轻量、本地优先。
 
-## Current scope
+## 当前范围
 
-- Local persistence only.
-- No account system.
-- No cloud sync.
-- No food database search.
-- No nutrition macros.
+- 仅支持本地持久化。
+- 暂不支持账号系统。
+- 暂不支持云同步。
+- 暂不支持食物数据库搜索。
+- 暂不支持蛋白质、脂肪、碳水等宏量营养素统计。
 
-## Future ideas
+## 后续方向
 
-- Weekly calorie trend chart.
-- Food templates for frequent meals.
-- Export daily records.
-- Protein, fat, and carbohydrate tracking.
-
+- 每周热量趋势图。
+- 常用食物模板。
+- 导出每日记录。
+- 蛋白质、脂肪、碳水统计。

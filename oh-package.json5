@@ -1,7 +1,7 @@
 {
   "name": "calorie-fit-harmony",
   "version": "1.0.0",
-  "description": "HarmonyOS ArkTS calorie tracking app prototype.",
+  "description": "HarmonyOS ArkTS 饮食热量记录应用原型。",
   "main": "",
   "author": "",
   "license": "MIT",
@@ -11,4 +11,3 @@
     "@ohos/hvigor": "4.1.3"
   }
 }
-
