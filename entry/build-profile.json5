@@ -1,14 +1,27 @@
 {
   "apiType": "stageMode",
-  "buildOption": {
-    "arkOptions": {
-      "apPath": "./modules.ap"
+  "buildOption": {},
+  "buildOptionSet": [
+    {
+      "name": "release",
+      "arkOptions": {
+        "obfuscation": {
+          "ruleOptions": {
+            "enable": true,
+            "files": [
+              "./obfuscation-rules.txt"
+            ]
+          }
+        }
+      }
     }
-  },
+  ],
   "targets": [
     {
       "name": "default"
+    },
+    {
+      "name": "ohosTest"
     }
   ]
 }
-

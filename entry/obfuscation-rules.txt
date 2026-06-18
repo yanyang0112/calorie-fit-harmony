@@ -1,0 +1,2 @@
+# ArkTS obfuscation rules for release builds.
+
