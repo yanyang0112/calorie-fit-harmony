@@ -2,7 +2,10 @@
   "src": [
     "pages/Index",
     "pages/AddFood",
-    "pages/Settings"
+    "pages/Settings",
+    "pages/History",
+    "pages/Stats",
+    "pages/Templates",
+    "pages/GoalProfile"
   ]
 }
-

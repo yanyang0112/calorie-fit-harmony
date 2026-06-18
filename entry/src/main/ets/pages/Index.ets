@@ -93,6 +93,47 @@ struct Index {
       .justifyContent(FlexAlign.Center)
       .margin({ top: 18, bottom: 10 })
 
+      Grid() {
+        GridItem() {
+          Button('历史')
+            .width('100%')
+            .height(44)
+            .backgroundColor('#E7F6EF')
+            .fontColor('#247B55')
+            .onClick(() => router.pushUrl({ url: 'pages/History' }))
+        }
+        GridItem() {
+          Button('统计')
+            .width('100%')
+            .height(44)
+            .backgroundColor('#E7F6EF')
+            .fontColor('#247B55')
+            .onClick(() => router.pushUrl({ url: 'pages/Stats' }))
+        }
+        GridItem() {
+          Button('常用食物')
+            .width('100%')
+            .height(44)
+            .backgroundColor('#E7F6EF')
+            .fontColor('#247B55')
+            .onClick(() => router.pushUrl({ url: 'pages/Templates' }))
+        }
+        GridItem() {
+          Button('目标档案')
+            .width('100%')
+            .height(44)
+            .backgroundColor('#E7F6EF')
+            .fontColor('#247B55')
+            .onClick(() => router.pushUrl({ url: 'pages/GoalProfile' }))
+        }
+      }
+      .columnsTemplate('1fr 1fr')
+      .rowsGap(10)
+      .columnsGap(10)
+      .width('90%')
+      .height(98)
+      .margin({ bottom: 8 })
+
       Text('今日记录')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
@@ -153,4 +194,3 @@ struct Index {
     .backgroundColor('#F6FFF9')
   }
 }
-
